@@ -382,7 +382,7 @@ appropriate meaning through its type.
 
 ## A note on arithmetic overflow
 
-Sometimes, being able to construct a color values outside 0 to 1 is
+Sometimes, being able to construct color values outside 0 to 1 is
 useful. For example, if you want to compute the average color in an
 image, the natural approach is to first sum all the pixels and then
 divide by the total number of pixels. At an intermediate stage, the
